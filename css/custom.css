@@ -1,0 +1,57 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+--dark-cyan: hsl(184, 100%, 22%);
+--very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p,
+button {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+  width: 65px;
+}
+
+.card-group {
+  max-width: 920px;
+}
+
+.first {
+  background-color: var(--bright-orange);
+}
+
+.middle {
+  background-color: var(--dark-cyan);
+}
+
+.last {
+  background-color: var(--very-dark-cyan);
+}
+
+.btn-outline-light {
+  --bs-btn-bg: var(--bs-light);
+  --bs-btn-border-color: var(--bs-light);
+  --bs-btn-border-radius: 1.5rem;
+  --bs-btn-hover-color: var(--bs-light);
+  --bs-btn-hover-bg: var(--bd-light);
+  --bs-btn-hover-border-color: var(--bd-light);
+  border-width: 2px;
+}
+
+.first .btn-outline-light {
+    --bs-btn-color: var(--bright-orange);
+}
+
+
+.middle .btn-outline-light {
+  --bs-btn-color: var(--dark-cyan);
+}
+
+.last .btn-outline-light {
+  --bs-btn-color: var(--very-dark-cyan);
+}
